@@ -28,6 +28,6 @@ Please visit https://eaterio-test.herokuapp.com/index.php
 - You can register for the customer account and log in. To log in with shop account, press the log in with shop account under login page. Add shop account using the admin mode. Access admin mode by clicking at the first name in the footer at the customer log in page. You can look up
 
 ## Members
-2059032 - Nguyễn Trần Nhật Phương
+2059032 - Nguyễn Trần Nhật Phương  
 2059027 - Bùi Quang Minh
 2059019 - Lin Lập Kiến
