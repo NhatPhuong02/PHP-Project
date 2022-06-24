@@ -31,7 +31,7 @@
     <div class="container form-signin text-center restricted mt-auto">
             <i class="mt-4 bi bi-hdd-network-fill text-danger h1 display-2"></i>
             <h3 class="mt-2 mb-3 fw-normal text-bold">Connection Error</h3>
-            <p class="mb-3 fw-normal text-bold text-wrap">Cannot connect to EATERIO database right now.</p>
+            <p class="mb-3 fw-normal text-bold text-wrap">Cannot connect to ITEC database right now.</p>
             <a class="btn btn-danger btn-sm w-50" href="index.php">Try again.</a>
     </div>
 

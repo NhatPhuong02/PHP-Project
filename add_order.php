@@ -1,6 +1,6 @@
 <?php
     session_start();
-    date_default_timezone_set('Asia/Bangkok');
+    date_default_timezone_set('Asia/Ho_Chi_Minh');
     include('conn_db.php');
     $pickuptime = $_POST["pickuptime"];
     $payamount = $_POST["payamount"];
