@@ -128,36 +128,36 @@ CREATE TABLE `food` (
 --
 
 INSERT INTO `food` (`f_id`, `s_id`, `f_name`, `f_price`, `f_todayavail`, `f_preorderavail`, `f_pic`) VALUES
-(1, 1, 'BunBoHue', '40.00', 1, 0, '1_1.jpeg'),
-(2, 1, '', '55.00', 1, 1, '2_1.jpeg'),
-(3, 1, '', '40.00', 1, 1, '3_1.jpeg'),
-(4, 1, '', '30.00', 1, 1, '4_1.jpeg'),
-(5, 1, '', '35.00', 1, 1, '5_1.jpeg'),
-(6, 1, '', '35.00', 1, 1, '6_1.jpeg'),
-(7, 1, '', '35.00', 1, 1, '7_1.jpeg'),
-(8, 1, '', '40.00', 1, 1, NULL),
-(9, 1, '', '40.00', 1, 1, '9_1.jpeg'),
-(10, 1, '', '40.00', 1, 1, '10_1.jpeg'),
-(11, 2, '', '30.00', 1, 1, NULL),
-(12, 2, '', '30.00', 1, 1, '12_2.jpeg'),
-(13, 2, '', '30.00', 1, 1, '13_2.jpeg'),
-(14, 2, '', '30.00', 1, 1, '14_2.jpeg'),
-(15, 2, '', '30.00', 1, 1, '15_2.jpeg'),
-(16, 2, '', '30.00', 1, 1, '16_2.jpeg'),
-(17, 2, '', '30.00', 1, 1, NULL),
-(18, 2, '', '30.00', 1, 1, NULL),
-(19, 2, '', '30.00', 1, 1, '19_2.jpeg'),
-(20, 2, '', '25.00', 1, 1, '20_2.jpeg'),
-(21, 3, '', '35.00', 1, 1, '21_3.jpeg'),
-(22, 3, '', '30.00', 1, 1, '22_3.jpeg'),
-(23, 3, '', '35.00', 1, 1, '23_3.jpeg'),
-(24, 3, '', '35.00', 1, 1, NULL),
-(25, 3, '', '35.00', 1, 1, NULL),
-(26, 3, '', '35.00', 1, 1, '26_3.jpeg'),
-(27, 3, '', '40.00', 1, 0, NULL),
-(28, 3, '', '40.00', 1, 1, '28_3.jpeg'),
-(29, 3, '', '10.00', 1, 1, '29_3.jpeg'),
-(30, 3, '', '40.00', 1, 1, '30_3.jpeg');
+(1, 1, 'Basil Rice with Minced Pork', '40.00', 1, 0, '1_1.jpeg'),
+(2, 1, 'Shrimp Fried Rice', '55.00', 1, 1, '2_1.jpeg'),
+(3, 1, 'Fried Noodles', '40.00', 1, 1, '3_1.jpeg'),
+(4, 1, 'Omelette Rice', '30.00', 1, 1, '4_1.jpeg'),
+(5, 1, 'Garlic Pork with Rice', '35.00', 1, 1, '5_1.jpeg'),
+(6, 1, 'Stir Fried Mama with Egg', '35.00', 1, 1, '6_1.jpeg'),
+(7, 1, 'Egg Fried Rice', '35.00', 1, 1, '7_1.jpeg'),
+(8, 1, 'Stir Fried Chili Paste', '40.00', 1, 1, NULL),
+(9, 1, 'Chicken and Basil with Rice', '40.00', 1, 1, '9_1.jpeg'),
+(10, 1, 'Fried chicken rice', '40.00', 1, 1, '10_1.jpeg'),
+(11, 2, 'Stewed Egg with Rice', '30.00', 1, 1, NULL),
+(12, 2, 'Clear Soup with Tofu and Minced Pork with Rice', '30.00', 1, 1, '12_2.jpeg'),
+(13, 2, 'Chicken Panang Rice', '30.00', 1, 1, '13_2.jpeg'),
+(14, 2, 'Chicken Massaman Rice', '30.00', 1, 1, '14_2.jpeg'),
+(15, 2, 'Stir Fried Vegetables with Rice', '30.00', 1, 1, '15_2.jpeg'),
+(16, 2, 'Vermicelli Fried Rice', '30.00', 1, 1, '16_2.jpeg'),
+(17, 2, 'Fried Zucchini Rice with Egg', '30.00', 1, 1, NULL),
+(18, 2, 'Stir Fried Tofu with Rice', '30.00', 1, 1, NULL),
+(19, 2, 'Poached egg rice', '30.00', 1, 1, '19_2.jpeg'),
+(20, 2, 'Fried Egg with Rice', '25.00', 1, 1, '20_2.jpeg'),
+(21, 3, 'Clear Soup Noodles', '35.00', 1, 1, '21_3.jpeg'),
+(22, 3, 'Red Pork Noodles', '30.00', 1, 1, '22_3.jpeg'),
+(23, 3, 'Tom Yum Noodles', '35.00', 1, 1, '23_3.jpeg'),
+(24, 3, 'Yentafo Noodles', '35.00', 1, 1, NULL),
+(25, 3, 'Tom Yum Dried Noodles', '35.00', 1, 1, NULL),
+(26, 3, 'Namtok Noodles', '35.00', 1, 1, '26_3.jpeg'),
+(27, 3, 'Braised Pork Soup', '40.00', 1, 0, NULL),
+(28, 3, 'Braised Pork Noodles', '40.00', 1, 1, '28_3.jpeg'),
+(29, 3, 'Plain rice', '10.00', 1, 1, '29_3.jpeg'),
+(30, 3, 'Speak Lound', '40.00', 1, 1, '30_3.jpeg');
 
 -- --------------------------------------------------------
 
@@ -264,9 +264,9 @@ CREATE TABLE `shop` (
 --
 
 INSERT INTO `shop` (`s_id`, `s_username`, `s_pwd`, `s_name`, `s_location`, `s_openhour`, `s_closehour`, `s_status`, `s_preorderStatus`, `s_email`, `s_phoneno`, `s_pic`) VALUES
-(1, 'shop001', '12345678', 'Name of shop', 'Unit #2', '07:30:00', '14:30:00', 1, 1, 'shop001@email.com', '0900001234', 'shop1.jpeg'),
-(2, 'shop002', '12345678', 'Name of shop', 'Unit #1', '08:00:00', '17:30:00', 1, 1, 'shop002@email.com', '0900000002', NULL),
-(3, 'shop003', 'qwertyui', 'The Noodle Shop', 'Unit #3', '08:30:00', '16:00:00', 1, 1, 'shop003@email.com', '0901234567', 'shop3.jpg');
+(1, 'shop001', '12345678', 'A La Carte restaurant', 'Unit #2', '07:30:00', '14:30:00', 1, 1, 'shop001@email.com', '0900001234', 'shop1.jpeg'),
+(2, 'shop002', '12345678', 'Khao Rad Curry Restaurant', 'Unit #1', '08:00:00', '17:30:00', 1, 1, 'shop002@email.com', '0900000002', NULL),
+(3, 'shop003', 'qwertyui', 'The Noodle Restaurant', 'Unit #3', '08:30:00', '16:00:00', 1, 1, 'shop003@email.com', '0901234567', 'shop3.jpg');
 
 --
 -- Indexes for dumped tables
