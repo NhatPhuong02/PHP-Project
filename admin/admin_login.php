@@ -7,14 +7,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link href="../css/login.css" rel="stylesheet">
     <link href="../img/ICON_F.png" rel="icon">
-    <title>Log in | EATERIO</title>
+    <title>Log in | ITEC</title>
 </head>
 
 <body class="d-flex flex-column h-100">
     <header class="navbar navbar-light fixed-top bg-light shadow-sm mb-auto">
         <div class="container-fluid mx-4">
             <a href="../index.php">
-                <img src="../img/LOGO_BLACK.png" width="125" class="me-2" alt="EATERIO Logo">
+                <img src="../img/LOGO_BLACK.png" width="125" class="me-2" alt="ITEC Logo">
             </a>
         </div>
     </header>
@@ -39,7 +39,7 @@
         <span class="smaller-font">&copy; 2021 SeriousEater Group<br /><span class="xsmall-font">Paphana Y. Sirada C.
                 Thanakit L.</span></span>
         <ul class="nav justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a class="text-light" target="_blank" href="https://github.com/waterthatfrozen/EATERIO"><i
+            <li class="ms-3"><a class="text-light" target="_blank" href=#><i
                         class="bi bi-github"></i></a></li>
         </ul>
     </footer>

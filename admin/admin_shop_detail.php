@@ -16,7 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="../css/main.css" rel="stylesheet">
     <link href="../css/menu.css" rel="stylesheet">
-    <title>Shop Profile | EATERIO</title>
+    <title>Shop Profile | ITEC</title>
 </head>
 
 <body class="d-flex flex-column h-100">
@@ -248,7 +248,7 @@
         <span class="smaller-font">&copy; 2021 SeriousEater Group<br /><span class="xsmall-font">Paphana Y. Sirada C.
                 Thanakit L.</span></span>
         <ul class="nav justify-content-end list-unstyled d-flex">
-            <li class="ms-3"><a class="text-light" target="_blank" href="https://github.com/waterthatfrozen/EATERIO"><i
+            <li class="ms-3"><a class="text-light" target="_blank" href=#><i
                         class="bi bi-github"></i></a></li>
         </ul>
     </footer>
