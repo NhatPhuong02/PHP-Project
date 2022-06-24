@@ -264,9 +264,9 @@ CREATE TABLE `shop` (
 --
 
 INSERT INTO `shop` (`s_id`, `s_username`, `s_pwd`, `s_name`, `s_location`, `s_openhour`, `s_closehour`, `s_status`, `s_preorderStatus`, `s_email`, `s_phoneno`, `s_pic`) VALUES
-(1, 'shop001', '12345678', 'A La Carte restaurant', 'Unit #2', '07:30:00', '14:30:00', 1, 1, 'shop001@email.com', '0900001234', 'shop1.jpeg'),
-(2, 'shop002', '12345678', 'Khao Rad Curry Restaurant', 'Unit #1', '08:00:00', '17:30:00', 1, 1, 'shop002@email.com', '0900000002', NULL),
-(3, 'shop003', 'qwertyui', 'The Noodle Restaurant', 'Unit #3', '08:30:00', '16:00:00', 1, 1, 'shop003@email.com', '0901234567', 'shop3.jpg');
+(1, 'shop001', '12345678', 'Northern Restaurant', 'Unit #2', '07:30:00', '14:30:00', 1, 1, 'shop001@email.com', '0900001234', 'shop1.jpeg'),
+(2, 'shop002', '12345678', 'Central Restaurant', 'Unit #1', '08:00:00', '17:30:00', 1, 1, 'shop002@email.com', '0900000002', NULL),
+(3, 'shop003', 'qwertyui', 'South Restaurant', 'Unit #3', '08:30:00', '16:00:00', 1, 1, 'shop003@email.com', '0901234567', 'shop3.jpg');
 
 --
 -- Indexes for dumped tables
