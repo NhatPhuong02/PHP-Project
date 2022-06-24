@@ -116,7 +116,7 @@ INSERT INTO `customer` (`c_id`, `c_username`, `c_pwd`, `c_firstname`, `c_lastnam
 CREATE TABLE `food` (
   `f_id` int(11) NOT NULL,
   `s_id` int(11) NOT NULL,
-  `f_name` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `f_name` varchar(100) COLLATE utf8mb4_vietnamese_ci NOT NULL,
   `f_price` decimal(6,2) NOT NULL,
   `f_todayavail` tinyint(4) NOT NULL DEFAULT 1 COMMENT 'Food is available to order or not',
   `f_preorderavail` tinyint(4) NOT NULL DEFAULT 1,
@@ -128,13 +128,13 @@ CREATE TABLE `food` (
 --
 
 INSERT INTO `food` (`f_id`, `s_id`, `f_name`, `f_price`, `f_todayavail`, `f_preorderavail`, `f_pic`) VALUES
-(1, 1, 'Basil Rice with Minced Pork', '40.00', 1, 0, '1_1.jpeg'),
-(2, 1, 'Shrimp Fried Rice', '55.00', 1, 1, '2_1.jpeg'),
-(3, 1, 'Fried Noodles', '40.00', 1, 1, '3_1.jpeg'),
-(4, 1, 'Omelette Rice', '30.00', 1, 1, '4_1.jpeg'),
-(5, 1, 'Garlic Pork with Rice', '35.00', 1, 1, '5_1.jpeg'),
-(6, 1, 'Stir Fried Mama with Egg', '35.00', 1, 1, '6_1.jpeg'),
-(7, 1, 'Egg Fried Rice', '35.00', 1, 1, '7_1.jpeg'),
+(1, 1, 'Bún thang', '40.00', 1, 0, '1_1.jpeg'),
+(2, 1, 'Phở gà', '55.00', 1, 1, '2_1.jpeg'),
+(3, 1, 'Phở bò', '40.00', 1, 1, '3_1.jpeg'),
+(4, 1, 'Bún thịt nướng', '30.00', 1, 1, '4_1.jpeg'),
+(5, 1, 'Bún riêu', '35.00', 1, 1, '5_1.jpeg'),
+(6, 1, 'Bánh đa cua', '35.00', 1, 1, '6_1.jpeg'),
+(7, 1, '', '35.00', 1, 1, '7_1.jpeg'),
 (8, 1, 'Stir Fried Chili Paste', '40.00', 1, 1, '8_1.jpeg'),
 (9, 1, 'Chicken and Basil with Rice', '40.00', 1, 1, '9_1.jpeg'),
 (10, 1, 'Fried chicken rice', '40.00', 1, 1, '10_1.jpeg'),
