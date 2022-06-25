@@ -104,8 +104,6 @@
         <!-- END GRID SHOP SELECTION -->
 
     </div>
-   
-    
     <?php include 'footer.php';?>
 
 </body>
