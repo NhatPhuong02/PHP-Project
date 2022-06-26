@@ -1,6 +1,7 @@
 html,
 body {
     height: 100%;
+    background-color: #C9E4D6;
 }
 
 .card img {
@@ -14,7 +15,9 @@ input::-webkit-inner-spin-button {
     margin: 0;
 }
 
+
 /* Firefox */
+
 input[type=number] {
     -moz-appearance: textfield;
 }
@@ -23,11 +26,13 @@ input[type=number] {
     max-width: 375px;
 }
 
+
 /* Cart CSS */
+
 .image-parent {
     max-width: 100px;
 }
 
-input[type="datetime-local"]{
+input[type="datetime-local"] {
     max-width: 250px;
 }

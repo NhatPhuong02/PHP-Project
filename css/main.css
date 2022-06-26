@@ -1,5 +1,6 @@
 /* CSS for most core pages */
-html{
+
+html {
     height: 100%;
 }
 
@@ -7,10 +8,12 @@ body {
     height: 100%;
     padding-top: 4rem;
     margin-bottom: -50px;
-    font-family: 'Poppins', 'Noto Sans Thai',  sans-serif;
+    font-family: 'Poppins', 'Noto Sans Thai', sans-serif;
+    /* background-color: #F4DCD6; */
+    background-color: #C9E4D6;
 }
 
-a{
+a {
     cursor: pointer;
 }
 
@@ -20,6 +23,10 @@ a{
     border: solid rgba(0, 0, 0, .15);
     border-width: 1px 0;
     box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.bg-light {
+    background-color: #C9E4D6 !important;
 }
 
 .bi {
@@ -35,7 +42,7 @@ a{
     font-size: smaller;
 }
 
-.xsmall-font{
+.xsmall-font {
     font-size: x-small;
 }
 
@@ -52,18 +59,18 @@ a{
     font-weight: 600;
 }
 
-.reg-text{
+.reg-text {
     font-weight: 400;
 }
 
-.rounded-10{
+.rounded-10 {
     border-radius: 10px;
 }
 
-.rounded-25{
+.rounded-25 {
     border-radius: 25px;
 }
 
-.notibar{
+.notibar {
     max-width: 450px;
 }

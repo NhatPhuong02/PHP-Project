@@ -18,7 +18,7 @@ SET time_zone = "+07:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `eaterio`
+-- Database: `itec`
 --
 
 DELIMITER $$
