@@ -99,12 +99,13 @@ CREATE TABLE `customer` (
 --
 
 INSERT INTO `customer` (`c_id`, `c_username`, `c_pwd`, `c_firstname`, `c_lastname`, `c_email`, `c_gender`, `c_type`) VALUES
+(1, '1234566789', '1234566789', 'MinhBui', 'Quang', '123456789@g.siit.tu.ac.th', 'F', 'STD'),
 (2, '6222780668', '6222780668', 'Sirada', 'Chaisawat', '6222780668@g.siit.tu.ac.th', 'F', 'STD'),
 (3, '6222780569', '6222780569', 'Thanakit', 'Lerttomolsakul', '6222780569@g.siit.tu.ac.th', 'M', 'STD'),
 (4, 'BKD_Admin01', '12345678', 'Admin', 'Bangkradi', 'admin_dummy@email.com', 'M', 'ADM'),
 (11, 'someone', 'someonee', 'someone', 'someone', 'someone@email.com', 'N', 'GUE'),
 (16, '6222780379', '6222780379', 'Paphana', 'Yiwsiw', '6222780379@g.siit.tu.ac.th', 'M', 'STD'),
-(19, 'iamguest', 'iamguest', 'Guest01', 'Guest01', 'guest@gmail.com', 'M', 'GUE'),
+(19, 'iamguest', 'iamguest', 'Guest01', 'Guest01', 'guest@gmail.com', 'M', 'GUE'),  
 (20, 'johndoe', 'johndoee', 'John', 'Doey', 'john@gmail.com', 'F', 'STF');
 
 -- --------------------------------------------------------
@@ -128,36 +129,36 @@ CREATE TABLE `food` (
 --
 
 INSERT INTO `food` (`f_id`, `s_id`, `f_name`, `f_price`, `f_todayavail`, `f_preorderavail`, `f_pic`) VALUES
-(1, 1, 'Bún thang', '40.00', 1, 0, '1_1.jpeg'),
-(2, 1, 'Phở gà', '55.00', 1, 1, '2_1.jpeg'),
-(3, 1, 'Phở bò', '40.00', 1, 1, '3_1.jpeg'),
-(4, 1, 'Bún thịt nướng', '30.00', 1, 1, '4_1.jpeg'),
-(5, 1, 'Bún riêu', '35.00', 1, 1, '5_1.jpeg'),
-(6, 1, 'Bánh đa cua', '35.00', 1, 1, '6_1.jpeg'),
-(7, 1, 'Chả cá Lã Vọng', '35.00', 1, 1, '7_1.jpeg'),
-(8, 1, 'Bún cá rô đồng Hà Nam', '40.00', 1, 1, '8_1.jpeg'),
-(9, 1, 'Bún cá Hải Phòng', '40.00', 1, 1, '9_1.jpeg'),
-(10, 1, 'Nem cua bể', '40.00', 1, 1, '10_1.jpeg'),
-(11, 2, 'Bún cá Nha Trang', '30.00', 1, 1, '11_2.jpeg'),
-(12, 2, 'Nem nướng', '30.00', 1, 1, '12_2.jpeg'),
-(13, 2, 'Cao lầu', '30.00', 1, 1, '13_2.jpeg'),
-(14, 2, 'Mì Quảng', '30.00', 1, 1, '14_2.jpeg'),
-(15, 2, 'Bún bò Huế', '30.00', 1, 1, '15_2.jpeg'),
-(16, 2, 'Cơm hến', '30.00', 1, 1, '16_2.jpeg'),
-(17, 2, 'Cháo lươn Nghệ An', '30.00', 1, 1, '17_2.jpeg'),
-(18, 2, 'Súp lươn Nghệ An', '30.00', 1, 1, '18_2.jpeg'),
-(19, 2, 'Cháo canh', '30.00', 1, 1, '19_2.jpeg'),
-(20, 2, 'Nem chua', '25.00', 1, 1, '20_2.jpeg'),
-(21, 3, 'Bánh canh ghẹ', '35.00', 1, 1, '21_3.jpeg'),
-(22, 3, 'Sủi cảo', '30.00', 1, 1, '22_3.jpeg'),
-(23, 3, 'Bánh canh Trảng Bàng', '35.00', 1, 1, '23_3.jpeg'),
-(24, 3, 'Bún kèn Phú Quốc', '35.00', 1, 1, '24_3.jpeg'),
-(25, 3, 'Gỏi cá trích', '35.00', 1, 1, '25_3.jpeg'),
-(26, 3, 'Cá lóc nướng trui', '35.00', 1, 1, '26_3.jpeg'),
-(27, 3, 'Lẩu mắm', '40.00', 1, 0, '27_3.jpeg'),
-(28, 3, 'Bánh xèo', '40.00', 1, 1, '28_3.jpeg'),
-(29, 3, 'Bánh cống Cần Thơ', '10.00', 1, 1, '29_3.jpeg'),
-(30, 3, 'Bánh tráng trộn', '40.00', 1, 1, '30_3.jpeg');
+(1, 1, 'Bún thang', '40.000', 1, 0, '1_1.jpeg'),
+(2, 1, 'Phở gà', '55.000', 1, 1, '2_1.jpeg'),
+(3, 1, 'Phở bò', '40.000', 1, 1, '3_1.jpeg'),
+(4, 1, 'Bún thịt nướng', '30.000', 1, 1, '4_1.jpeg'),
+(5, 1, 'Bún riêu', '35.000', 1, 1, '5_1.jpeg'),
+(6, 1, 'Bánh đa cua', '35.000', 1, 1, '6_1.jpeg'),
+(7, 1, 'Chả cá Lã Vọng', '35.000', 1, 1, '7_1.jpeg'),
+(8, 1, 'Bún cá rô đồng Hà Nam', '40.000', 1, 1, '8_1.jpeg'),
+(9, 1, 'Bún cá Hải Phòng', '40.000', 1, 1, '9_1.jpeg'),
+(10, 1, 'Nem cua bể', '40.000', 1, 1, '10_1.jpeg'),
+(11, 2, 'Bún cá Nha Trang', '30.000', 1, 1, '11_2.jpeg'),
+(12, 2, 'Nem nướng', '30.000', 1, 1, '12_2.jpeg'),
+(13, 2, 'Cao lầu', '30.000', 1, 1, '13_2.jpeg'),
+(14, 2, 'Mì Quảng', '30.000', 1, 1, '14_2.jpeg'),
+(15, 2, 'Bún bò Huế', '30.000', 1, 1, '15_2.jpeg'),
+(16, 2, 'Cơm hến', '30.000', 1, 1, '16_2.jpeg'),
+(17, 2, 'Cháo lươn Nghệ An', '30.000', 1, 1, '17_2.jpeg'),
+(18, 2, 'Súp lươn Nghệ An', '30.000', 1, 1, '18_2.jpeg'),
+(19, 2, 'Cháo canh', '30.000', 1, 1, '19_2.jpeg'),
+(20, 2, 'Nem chua', '25.000', 1, 1, '20_2.jpeg'),
+(21, 3, 'Bánh canh ghẹ', '35.000', 1, 1, '21_3.jpeg'),
+(22, 3, 'Sủi cảo', '30.000', 1, 1, '22_3.jpeg'),
+(23, 3, 'Bánh canh Trảng Bàng', '35.000', 1, 1, '23_3.jpeg'),
+(24, 3, 'Bún kèn Phú Quốc', '35.000', 1, 1, '24_3.jpeg'),
+(25, 3, 'Gỏi cá trích', '35.000', 1, 1, '25_3.jpeg'),
+(26, 3, 'Cá lóc nướng trui', '35.000', 1, 1, '26_3.jpeg'),
+(27, 3, 'Lẩu mắm', '40.000', 1, 0, '27_3.jpeg'),
+(28, 3, 'Bánh xèo', '40.000', 1, 1, '28_3.jpeg'),
+(29, 3, 'Bánh cống Cần Thơ', '10.000', 1, 1, '29_3.jpeg'),
+(30, 3, 'Bánh tráng trộn', '40.000', 1, 1, '30_3.jpeg');
 
 -- --------------------------------------------------------
 
