@@ -171,7 +171,7 @@ CREATE TABLE `order_detail` (
   `orh_id` int(11) NOT NULL,
   `f_id` int(11) NOT NULL,
   `ord_amount` int(11) NOT NULL,
-  `ord_buyprice` decimal(6,2) NOT NULL COMMENT 'To keep the snapshot of selected menu cost at the time of the purchase.',
+  `ord_buyprice` decimal(6,3) NOT NULL COMMENT 'To keep the snapshot of selected menu cost at the time of the purchase.',
   `ord_note` text COLLATE utf8mb4_vietnamese_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
 
@@ -225,7 +225,7 @@ CREATE TABLE `payment` (
   `p_id` int(11) NOT NULL,
   `c_id` int(11) NOT NULL,
   `p_type` varchar(45) COLLATE utf8mb4_vietnamese_ci NOT NULL,
-  `p_amount` decimal(7,2) NOT NULL,
+  `p_amount` decimal(7,3) NOT NULL,
   `p_detail` text COLLATE utf8mb4_vietnamese_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
 
