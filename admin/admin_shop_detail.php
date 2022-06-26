@@ -197,7 +197,7 @@
                     <tr>
                         <th><?php echo $i++;?></th>
                         <td><?php echo $row["f_name"];?></td>
-                        <td><?php printf("%.2f THB",$row["f_price"]);?></td>
+                        <td><?php printf("%.2f VND",$row["f_price"]);?></td>
                         <td class="text-wrap">
                             <ul class="list-unstyled mb-3 mb-md-0">
                                 <li class="my-2">

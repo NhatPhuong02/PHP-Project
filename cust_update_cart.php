@@ -66,7 +66,7 @@
             </div>
             <div class="col text-wrap">
                 <h1 class="fw-light"><?php echo $food_row["f_name"]?></h1>
-                <h3 class="fw-light"><?php echo $food_row["f_price"]?> THB</h3>
+                <h3 class="fw-light"><?php echo $food_row["f_price"]?> VND</h3>
                 <ul class="list-unstyled mb-3 mb-md-0">
                     <li class="my-2">
                         <?php if($food_row["f_todayavail"]==1){ ?>

@@ -135,7 +135,7 @@
                                         <div class="ms-3 me-auto">
                                             <div class="fw-normal"><span class="h5"><?php echo $ord_row["ord_amount"]?>x
                                                 </span><?php echo $ord_row["f_name"]?>
-                                                <p><?php printf("%.2f THB <small class='text-muted'>(%.2f THB each)</small>",$ord_row["ord_buyprice"]*$ord_row["ord_amount"],$ord_row["ord_buyprice"]);?><br />
+                                                <p><?php printf("%.2f VND <small class='text-muted'>(%.2f VND each)</small>",$ord_row["ord_buyprice"]*$ord_row["ord_amount"],$ord_row["ord_buyprice"]);?><br />
                                                     <span
                                                         class="text-muted small"><?php echo $ord_row["ord_note"]?></span>
                                                 </p>
@@ -154,7 +154,7 @@
                                 <?php
                                     $gt_query = "SELECT SUM(ord_amount*ord_buyprice) AS gt FROM order_detail WHERE orh_id = {$orh_id}";
                                     $gt_arr = $mysqli -> query($gt_query) -> fetch_array();
-                                    printf("%.2f THB",$gt_arr["gt"]);
+                                    printf("%.2f VND",$gt_arr["gt"]);
                                 ?>
                             </li>
                             <li class="list-item fw-light small">Pay by

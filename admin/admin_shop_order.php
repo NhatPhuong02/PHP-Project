@@ -240,7 +240,7 @@
                         echo $order_time;
                         ?></td>
                         <td><?php echo $row["c_firstname"]." ".$row["c_lastname"];?></td>
-                        <td><?php echo $row["p_amount"]." THB";?></td>
+                        <td><?php echo $row["p_amount"]." VND";?></td>
                         <td><a href="admin_order_detail.php?orh_id=<?php echo $row["orh_id"]?>" class="btn btn-sm btn-primary">View</a></td>
                     </tr>
                     <?php } ?>

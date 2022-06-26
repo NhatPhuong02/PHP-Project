@@ -166,7 +166,7 @@
                             class="img-fluid rounded" alt="<?php echo $food_row["f_name"]?>">
                     </td>
                     <td><?php echo $row["f_name"];?></td>
-                    <td><?php echo $row["f_price"]." THB";?></td>
+                    <td><?php echo $row["f_price"]." VND";?></td>
                     <td>
                     <?php 
                         if($row["f_todayavail"]==1){

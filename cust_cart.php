@@ -212,7 +212,7 @@
                                 <div class="ms-3 mt-3 me-auto">
                                     <div class="fw-normal"><span class="h5"><?php echo $row["ct_amount"]?>x</span>
                                         <?php echo $row["f_name"]?>
-                                        <p><?php printf("%.2f THB <small class='text-muted'>(%.2f THB each)</small>",$row["f_price"]*$row["ct_amount"],$row["f_price"])?><br />
+                                        <p><?php printf("%.2f VND <small class='text-muted'>(%.2f VND each)</small>",$row["f_price"]*$row["ct_amount"],$row["f_price"])?><br />
                                             <span class="text-muted small"> <?php echo $row["ct_note"]?></span>
                                             <ul class="list-unstyled list-inline">
                                                 <li>
@@ -273,7 +273,7 @@
                                         ON ct.f_id = f.f_id WHERE ct.c_id = {$_SESSION['cid']} GROUP BY ct.c_id";
                                         $gt_arr = $mysqli -> query($gt_query) -> fetch_array();
                                         $order_cost = $gt_arr["grandtotal"];
-                                        printf("%.2f THB",$order_cost);
+                                        printf("%.2f VND",$order_cost);
                                         if($order_cost<20){
                                             $min_cost = false;  $no_order=true;
                                         }else{
@@ -377,7 +377,7 @@
                                 data-locale="en"
                                 data-location="no"
                                 data-amount="<?php echo $order_cost*100;?>"
-                                data-currency="thb">
+                                data-currency="vnd">
                             </script>
                             <?php } ?>
                         </div>

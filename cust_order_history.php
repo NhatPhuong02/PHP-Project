@@ -91,7 +91,7 @@
                                     ?>
                                         <div class="col pt-2 border-top"><?php echo $ord_arr["cnt"]?> item(s)</div>
                                         <div class="col mt-1 mb-2"><strong class="h5"><?php echo $ord_arr["gt"]?>
-                                                THB</strong></div>
+                                                VND</strong></div>
                                         <div class="col text-end">
                                             <a href="cust_order_detail.php?orh_id=<?php echo $og_row["orh_id"]?>"
                                                 class="text-dark text-decoration-none">
@@ -179,7 +179,7 @@
                                     ?>
                                         <div class="col pt-2 border-top"><?php echo $ord_arr["cnt"]?> item(s)</div>
                                         <div class="col mt-1 mb-2"><strong class="h5"><?php echo $ord_arr["gt"]?>
-                                                THB</strong></div>
+                                                VND</strong></div>
                                         <div class="col text-end">
                                             <a href="cust_order_detail.php?orh_id=<?php echo $og_row["orh_id"]?>"
                                                 class="text-dark text-decoration-none">

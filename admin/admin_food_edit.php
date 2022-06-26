@@ -78,8 +78,8 @@
                 <label for="f_name">Menu Name</label>
             </div>
             <div class="form-floating mb-2">
-                <input type="number" step=".25" min="0.00" max="999.75" class="form-control" id="f_price" placeholder="Price (THB)" value="<?php echo $row["f_price"];?>" name="f_price" required>
-                <label for="f_price">Price (THB)</label>
+                <input type="number" step=".25" min="0.00" max="999.75" class="form-control" id="f_price" placeholder="Price (VND)" value="<?php echo $row["f_price"];?>" name="f_price" required>
+                <label for="f_price">Price (VND)</label>
             </div>
             <div class="mb-2">
                 <label for="formFile" class="form-label">Upload food image</label>

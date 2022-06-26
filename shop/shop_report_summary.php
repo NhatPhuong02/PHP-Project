@@ -89,7 +89,7 @@
                                     WHERE orh.s_id = {$s_id} AND orh_orderstatus = 'FNSH' AND (DATE(orh_finishedtime) BETWEEN DATE('{$start_date}') AND DATE('{$end_date}'));";
                                     $result = $mysqli -> query($query) -> fetch_array();
                                     if(is_null($result["rev"])){$grandtotal = 0;} else{$grandtotal = $result["rev"];}
-                                    printf("%.2f THB",$grandtotal);
+                                    printf("%.2f VND",$grandtotal);
                                 ?>
                             </h5>
                             <p class="card-text small">Total revenue</p>
@@ -132,8 +132,8 @@
                         <div class="card-body">
                             <h5 class="card-title">
                                 <?php
-                                    if($num_order == 0){echo "0.00 THB";}
-                                    else{printf("%.2f THB",$grandtotal/$num_order);}
+                                    if($num_order == 0){echo "0.00 VND";}
+                                    else{printf("%.2f VND",$grandtotal/$num_order);}
                                 ?>
                             </h5>
                             <p class="card-text small">Averge cost per order</p>
@@ -232,14 +232,14 @@
                         <tr>
                             <th><?php echo $i++;?></th>
                             <td><?php echo $row["f_name"]?></td>
-                            <td><?php echo $row["f_price"]." THB"?></td>
+                            <td><?php echo $row["f_price"]." VND"?></td>
                             <td><?php echo $row["amount"]." plates"?></td>
-                            <td><?php echo $row["subtotal"]." THB"?></td>
+                            <td><?php echo $row["subtotal"]." VND"?></td>
                         </tr>
                         <?php } ?>
                         <tr class="fw-bold table-info">
                             <td colspan="4" class="text-end">Grand Total</td>
-                            <td><?php printf("%.2f THB",$grandtotal);?></td>
+                            <td><?php printf("%.2f VND",$grandtotal);?></td>
                         </tr>
                     </tbody>
                 </table>

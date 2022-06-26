@@ -29,7 +29,7 @@
         define('OMISE_SECRET_KEY', 'skey_test_5pj8zasgc2vv1yma57q');
         $charge = OmiseCharge::create(array(
             'amount' => $payamount,
-            'currency' => 'thb',
+            'currency' => 'vnd',
             'card' => $_POST["omiseToken"]
         ));
         $pay_status = $charge['status'];

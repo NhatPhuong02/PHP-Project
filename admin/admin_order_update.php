@@ -63,7 +63,7 @@
                 <label for="shopname">Shop Name</label>
             </div>
             <div class="form-floating mb-2">
-                <input type="text" class="form-control" id="ordercost" placeholder="Order Cost" value="<?php echo $row["p_amount"]." THB";?>" disabled>
+                <input type="text" class="form-control" id="ordercost" placeholder="Order Cost" value="<?php echo $row["p_amount"]." VND";?>" disabled>
                 <label for="ordercost">Order Cost</label>
             </div>
             <div class="form-floating mb-2">

@@ -182,7 +182,7 @@
                     <th><?php echo $i++;?></th>
                     <td><?php echo $row["f_name"];?></td>
                     <td><?php echo $row["s_name"];?></td>
-                    <td><?php echo $row["f_price"]." THB";?></td>
+                    <td><?php echo $row["f_price"]." VND";?></td>
                     <td>
                     <?php 
                         if($row["f_todayavail"]==1){

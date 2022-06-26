@@ -137,7 +137,7 @@
                         </div>
                         <div class="card-body">
                             <h5 class="card-title fs-5"><?php echo $food_row["f_name"]?></h5>
-                            <p class="card-text"><?php echo $food_row["f_price"]?> THB</p>
+                            <p class="card-text"><?php echo $food_row["f_price"]?> VND</p>
                             <a href="food_item.php?<?php echo "s_id=".$food_row["s_id"]."&f_id=".$food_row["f_id"]?>" class="btn btn-sm mt-3 btn-outline-secondary">
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                                     class="bi bi-cart-plus" viewBox="0 0 16 16">

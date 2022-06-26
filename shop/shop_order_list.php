@@ -131,7 +131,7 @@
                                         $ord_query = "SELECT COUNT(*) AS cnt,SUM(ord_amount*ord_buyprice) AS gt FROM order_detail WHERE orh_id = {$og_row['orh_id']}";
                                         $ord_arr = $mysqli -> query($ord_query) -> fetch_array();
                                     ?>
-                                        <div class="col pt-2 mb-2 border-top"><?php echo $ord_arr["cnt"]?> menus | <?php echo $ord_arr["gt"]?> THB</div>
+                                        <div class="col pt-2 mb-2 border-top"><?php echo $ord_arr["cnt"]?> menus | <?php echo $ord_arr["gt"]?> VND</div>
                                         </small>
                                         <div class="col">
                                             <ul class="list-unstyled">
@@ -219,7 +219,7 @@
                                         $ord_query = "SELECT COUNT(*) AS cnt,SUM(ord_amount*ord_buyprice) AS gt FROM order_detail WHERE orh_id = {$og_row['orh_id']}";
                                         $ord_arr = $mysqli -> query($ord_query) -> fetch_array();
                                     ?>
-                                        <div class="col pt-2 mb-2 border-top"><?php echo $ord_arr["cnt"]?> menus | <?php echo $ord_arr["gt"]?> THB</div>
+                                        <div class="col pt-2 mb-2 border-top"><?php echo $ord_arr["cnt"]?> menus | <?php echo $ord_arr["gt"]?> VND</div>
                                         </small>
                                         <div class="col">
                                             <ul class="list-unstyled">
@@ -307,7 +307,7 @@
                                         $ord_query = "SELECT COUNT(*) AS cnt,SUM(ord_amount*ord_buyprice) AS gt FROM order_detail WHERE orh_id = {$og_row['orh_id']}";
                                         $ord_arr = $mysqli -> query($ord_query) -> fetch_array();
                                     ?>
-                                        <div class="col pt-2 mb-2 border-top"><?php echo $ord_arr["cnt"]?> menus | <?php echo $ord_arr["gt"]?> THB</div>
+                                        <div class="col pt-2 mb-2 border-top"><?php echo $ord_arr["cnt"]?> menus | <?php echo $ord_arr["gt"]?> VND</div>
                                         </small>
                                         <div class="col">
                                             <ul class="list-unstyled">
@@ -395,7 +395,7 @@
                                         $ord_query = "SELECT COUNT(*) AS cnt,SUM(ord_amount*ord_buyprice) AS gt FROM order_detail WHERE orh_id = {$og_row['orh_id']}";
                                         $ord_arr = $mysqli -> query($ord_query) -> fetch_array();
                                     ?>
-                                        <div class="col pt-2 mb-2 border-top"><?php echo $ord_arr["cnt"]?> menus | <?php echo $ord_arr["gt"]?> THB</div>
+                                        <div class="col pt-2 mb-2 border-top"><?php echo $ord_arr["cnt"]?> menus | <?php echo $ord_arr["gt"]?> VND</div>
                                         </small>
                                         <div class="col">
                                             <ul class="list-unstyled">
