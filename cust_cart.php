@@ -212,7 +212,7 @@
                                 <div class="ms-3 mt-3 me-auto">
                                     <div class="fw-normal"><span class="h5"><?php echo $row["ct_amount"]?>x</span>
                                         <?php echo $row["f_name"]?>
-                                        <p><?php printf("%.2f VND <small class='text-muted'>(%.2f VND each)</small>",$row["f_price"]*$row["ct_amount"],$row["f_price"])?><br />
+                                        <p><?php printf("%.3f VND <small class='text-muted'>(%.2f VND each)</small>",$row["f_price"]*$row["ct_amount"],$row["f_price"])?><br />
                                             <span class="text-muted small"> <?php echo $row["ct_note"]?></span>
                                             <ul class="list-unstyled list-inline">
                                                 <li>
@@ -273,7 +273,7 @@
                                         ON ct.f_id = f.f_id WHERE ct.c_id = {$_SESSION['cid']} GROUP BY ct.c_id";
                                         $gt_arr = $mysqli -> query($gt_query) -> fetch_array();
                                         $order_cost = $gt_arr["grandtotal"];
-                                        printf("%.2f VND",$order_cost);
+                                        printf("%.3f VND",$order_cost);
                                         if($order_cost<20){
                                             $min_cost = false;  $no_order=true;
                                         }else{
@@ -371,7 +371,7 @@
                             <script type="text/javascript" src="https://cdn.omise.co/omise.js"
                                 data-key="pkey_test_5pj8zasgcvaasrujrrs"
                                 data-image="https://github.com/waterthatfrozen/EATERIO/blob/9852a00d8e47b50cbe428a7f7ec763446ac273b4/img/ICON_F.png"
-                                data-frame-label="EATERIO | SIIT BKD"
+                                data-frame-label="ITEC CANTEEN | SIIT BKD"
                                 data-button-label="Proceed with payment"
                                 data-submit-label="Submit"
                                 data-locale="en"
