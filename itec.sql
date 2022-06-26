@@ -74,8 +74,8 @@ CREATE TABLE `cart` (
   `s_id` int(11) NOT NULL,
   `f_id` int(11) NOT NULL,
   `ct_amount` int(11) NOT NULL,
-  `ct_note` text COLLATE utf8mb4_unicode_ci NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+  `ct_note` text COLLATE utf8mb4_vietnamese_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
 
 -- --------------------------------------------------------
 
@@ -85,14 +85,14 @@ CREATE TABLE `cart` (
 
 CREATE TABLE `customer` (
   `c_id` int(11) NOT NULL,
-  `c_username` varchar(45) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `c_pwd` varchar(45) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `c_firstname` varchar(45) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `c_lastname` varchar(45) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `c_email` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `c_gender` varchar(1) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'M for Male, F for Female',
-  `c_type` varchar(3) COLLATE utf8mb4_unicode_ci NOT NULL COMMENT 'Type of customer in this canteen (STD for student, INS for instructor, STF for staff, GUE for guest, ADM for admin, OTH for other)'
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+  `c_username` varchar(45) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+  `c_pwd` varchar(45) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+  `c_firstname` varchar(45) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+  `c_lastname` varchar(45) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+  `c_email` varchar(100) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+  `c_gender` varchar(1) COLLATE utf8mb4_vietnamese_ci NOT NULL COMMENT 'M for Male, F for Female',
+  `c_type` varchar(3) COLLATE utf8mb4_vietnamese_ci NOT NULL COMMENT 'Type of customer in this canteen (STD for student, INS for instructor, STF for staff, GUE for guest, ADM for admin, OTH for other)'
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
 
 --
 -- Dumping data for table `customer`
@@ -120,8 +120,8 @@ CREATE TABLE `food` (
   `f_price` decimal(6,2) NOT NULL,
   `f_todayavail` tinyint(4) NOT NULL DEFAULT 1 COMMENT 'Food is available to order or not',
   `f_preorderavail` tinyint(4) NOT NULL DEFAULT 1,
-  `f_pic` text COLLATE utf8mb4_unicode_ci DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+  `f_pic` text COLLATE utf8mb4_vietnamese_ci DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
 
 --
 -- Dumping data for table `food`
@@ -134,30 +134,30 @@ INSERT INTO `food` (`f_id`, `s_id`, `f_name`, `f_price`, `f_todayavail`, `f_preo
 (4, 1, 'Bún thịt nướng', '30.00', 1, 1, '4_1.jpeg'),
 (5, 1, 'Bún riêu', '35.00', 1, 1, '5_1.jpeg'),
 (6, 1, 'Bánh đa cua', '35.00', 1, 1, '6_1.jpeg'),
-(7, 1, '', '35.00', 1, 1, '7_1.jpeg'),
-(8, 1, 'Stir Fried Chili Paste', '40.00', 1, 1, '8_1.jpeg'),
-(9, 1, 'Chicken and Basil with Rice', '40.00', 1, 1, '9_1.jpeg'),
-(10, 1, 'Fried chicken rice', '40.00', 1, 1, '10_1.jpeg'),
-(11, 2, 'Stewed Egg with Rice', '30.00', 1, 1, '11_2.jpeg'),
-(12, 2, 'Clear Soup with Tofu and Minced Pork with Rice', '30.00', 1, 1, '12_2.jpeg'),
-(13, 2, 'Chicken Panang Rice', '30.00', 1, 1, '13_2.jpeg'),
-(14, 2, 'Chicken Massaman Rice', '30.00', 1, 1, '14_2.jpeg'),
-(15, 2, 'Stir Fried Vegetables with Rice', '30.00', 1, 1, '15_2.jpeg'),
-(16, 2, 'Vermicelli Fried Rice', '30.00', 1, 1, '16_2.jpeg'),
-(17, 2, 'Fried Zucchini Rice with Egg', '30.00', 1, 1, '17_2.jpeg'),
-(18, 2, 'Stir Fried Tofu with Rice', '30.00', 1, 1, '18_2.jpeg'),
-(19, 2, 'Poached egg rice', '30.00', 1, 1, '19_2.jpeg'),
-(20, 2, 'Fried Egg with Rice', '25.00', 1, 1, '20_2.jpeg'),
-(21, 3, 'Clear Soup Noodles', '35.00', 1, 1, '21_3.jpeg'),
-(22, 3, 'Red Pork Noodles', '30.00', 1, 1, '22_3.jpeg'),
-(23, 3, 'Tom Yum Noodles', '35.00', 1, 1, '23_3.jpeg'),
-(24, 3, 'Yentafo Noodles', '35.00', 1, 1, '24_3.jpeg'),
-(25, 3, 'Tom Yum Dried Noodles', '35.00', 1, 1, '25_3.jpeg'),
-(26, 3, 'Namtok Noodles', '35.00', 1, 1, '26_3.jpeg'),
-(27, 3, 'Braised Pork Soup', '40.00', 1, 0, '27_3.jpeg'),
-(28, 3, 'Braised Pork Noodles', '40.00', 1, 1, '28_3.jpeg'),
-(29, 3, 'Plain rice', '10.00', 1, 1, '29_3.jpeg'),
-(30, 3, 'Speak Lound', '40.00', 1, 1, '30_3.jpeg');
+(7, 1, 'Chả cá Lã Vọng', '35.00', 1, 1, '7_1.jpeg'),
+(8, 1, 'Bún cá rô đồng Hà Nam', '40.00', 1, 1, '8_1.jpeg'),
+(9, 1, 'Bún cá Hải Phòng', '40.00', 1, 1, '9_1.jpeg'),
+(10, 1, 'Nem cua bể', '40.00', 1, 1, '10_1.jpeg'),
+(11, 2, 'Bún cá Nha Trang', '30.00', 1, 1, '11_2.jpeg'),
+(12, 2, 'Nem nướng', '30.00', 1, 1, '12_2.jpeg'),
+(13, 2, 'Cao lầu', '30.00', 1, 1, '13_2.jpeg'),
+(14, 2, 'Mì Quảng', '30.00', 1, 1, '14_2.jpeg'),
+(15, 2, 'Bún bò Huế', '30.00', 1, 1, '15_2.jpeg'),
+(16, 2, 'Cơm hến', '30.00', 1, 1, '16_2.jpeg'),
+(17, 2, 'Cháo lươn Nghệ An', '30.00', 1, 1, '17_2.jpeg'),
+(18, 2, 'Súp lươn Nghệ An', '30.00', 1, 1, '18_2.jpeg'),
+(19, 2, 'Cháo canh', '30.00', 1, 1, '19_2.jpeg'),
+(20, 2, 'Nem chua', '25.00', 1, 1, '20_2.jpeg'),
+(21, 3, 'Bánh canh ghẹ', '35.00', 1, 1, '21_3.jpeg'),
+(22, 3, 'Sủi cảo', '30.00', 1, 1, '22_3.jpeg'),
+(23, 3, 'Bánh canh Trảng Bàng', '35.00', 1, 1, '23_3.jpeg'),
+(24, 3, 'Bún kèn Phú Quốc', '35.00', 1, 1, '24_3.jpeg'),
+(25, 3, 'Gỏi cá trích', '35.00', 1, 1, '25_3.jpeg'),
+(26, 3, 'Cá lóc nướng trui', '35.00', 1, 1, '26_3.jpeg'),
+(27, 3, 'Lẩu mắm', '40.00', 1, 0, '27_3.jpeg'),
+(28, 3, 'Bánh xèo', '40.00', 1, 1, '28_3.jpeg'),
+(29, 3, 'Bánh cống Cần Thơ', '10.00', 1, 1, '29_3.jpeg'),
+(30, 3, 'Bánh tráng trộn', '40.00', 1, 1, '30_3.jpeg');
 
 -- --------------------------------------------------------
 
@@ -171,8 +171,8 @@ CREATE TABLE `order_detail` (
   `f_id` int(11) NOT NULL,
   `ord_amount` int(11) NOT NULL,
   `ord_buyprice` decimal(6,2) NOT NULL COMMENT 'To keep the snapshot of selected menu cost at the time of the purchase.',
-  `ord_note` text COLLATE utf8mb4_unicode_ci DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+  `ord_note` text COLLATE utf8mb4_vietnamese_ci DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
 
 --
 -- Dumping data for table `order_detail`
@@ -194,15 +194,15 @@ INSERT INTO `order_detail` (`ord_id`, `orh_id`, `f_id`, `ord_amount`, `ord_buypr
 
 CREATE TABLE `order_header` (
   `orh_id` int(11) NOT NULL,
-  `orh_refcode` varchar(15) COLLATE utf8mb4_unicode_ci DEFAULT NULL,
+  `orh_refcode` varchar(15) COLLATE utf8mb4_vietnamese_ci DEFAULT NULL,
   `c_id` int(11) NOT NULL,
   `s_id` int(11) NOT NULL,
   `p_id` int(11) NOT NULL,
   `orh_ordertime` timestamp NOT NULL DEFAULT current_timestamp(),
   `orh_pickuptime` datetime NOT NULL,
-  `orh_orderstatus` varchar(10) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `orh_orderstatus` varchar(10) COLLATE utf8mb4_vietnamese_ci NOT NULL,
   `orh_finishedtime` datetime DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
 
 --
 -- Dumping data for table `order_header`
@@ -223,10 +223,10 @@ INSERT INTO `order_header` (`orh_id`, `orh_refcode`, `c_id`, `s_id`, `p_id`, `or
 CREATE TABLE `payment` (
   `p_id` int(11) NOT NULL,
   `c_id` int(11) NOT NULL,
-  `p_type` varchar(45) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `p_type` varchar(45) COLLATE utf8mb4_vietnamese_ci NOT NULL,
   `p_amount` decimal(7,2) NOT NULL,
-  `p_detail` text COLLATE utf8mb4_unicode_ci DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+  `p_detail` text COLLATE utf8mb4_vietnamese_ci DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
 
 --
 -- Dumping data for table `payment`
@@ -246,18 +246,18 @@ INSERT INTO `payment` (`p_id`, `c_id`, `p_type`, `p_amount`, `p_detail`) VALUES
 
 CREATE TABLE `shop` (
   `s_id` int(11) NOT NULL,
-  `s_username` varchar(45) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `s_pwd` varchar(45) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `s_name` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `s_location` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
+  `s_username` varchar(45) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+  `s_pwd` varchar(45) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+  `s_name` varchar(100) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+  `s_location` varchar(100) COLLATE utf8mb4_vietnamese_ci NOT NULL,
   `s_openhour` time NOT NULL,
   `s_closehour` time NOT NULL,
   `s_status` tinyint(4) NOT NULL DEFAULT 1 COMMENT 'Shop ready for taking an order or not (True for open, False for close)',
   `s_preorderStatus` tinyint(4) NOT NULL DEFAULT 1 COMMENT 'Shop is ready for tomorrow pre-order or not',
-  `s_email` varchar(100) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `s_phoneno` varchar(45) COLLATE utf8mb4_unicode_ci NOT NULL,
-  `s_pic` text COLLATE utf8mb4_unicode_ci DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+  `s_email` varchar(100) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+  `s_phoneno` varchar(45) COLLATE utf8mb4_vietnamese_ci NOT NULL,
+  `s_pic` text COLLATE utf8mb4_vietnamese_ci DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_vietnamese_ci;
 
 --
 -- Dumping data for table `shop`
