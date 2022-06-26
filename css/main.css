@@ -10,7 +10,7 @@ body {
     margin-bottom: -50px;
     font-family: 'Poppins', 'Noto Sans Thai', sans-serif;
     /* background-color: #F4DCD6; */
-    background-color: #C9E4D6;
+    background-color: #F6F6F2;
 }
 
 a {
@@ -26,7 +26,7 @@ a {
 }
 
 .bg-light {
-    background-color: #C9E4D6 !important;
+    background-color: #6FB3B8 !important;
 }
 
 .bi {
