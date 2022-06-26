@@ -118,7 +118,7 @@ CREATE TABLE `food` (
   `f_id` int(11) NOT NULL,
   `s_id` int(11) NOT NULL,
   `f_name` varchar(100) COLLATE utf8mb4_vietnamese_ci NOT NULL,
-  `f_price` decimal(6,2) NOT NULL,
+  `f_price` decimal(6,3) NOT NULL,
   `f_todayavail` tinyint(4) NOT NULL DEFAULT 1 COMMENT 'Food is available to order or not',
   `f_preorderavail` tinyint(4) NOT NULL DEFAULT 1,
   `f_pic` text COLLATE utf8mb4_vietnamese_ci DEFAULT NULL
@@ -180,12 +180,12 @@ CREATE TABLE `order_detail` (
 --
 
 INSERT INTO `order_detail` (`ord_id`, `orh_id`, `f_id`, `ord_amount`, `ord_buyprice`, `ord_note`) VALUES
-(25, 22, 28, 2, '40.00', ''),
-(26, 22, 22, 1, '30.00', ''),
-(27, 23, 13, 1, '30.00', ''),
-(28, 23, 14, 1, '30.00', ''),
-(29, 24, 22, 1, '30.00', 'No veggie'),
-(30, 25, 29, 3, '10.00', '');
+(25, 22, 28, 2, '40.000', ''),
+(26, 22, 22, 1, '30.000', ''),
+(27, 23, 13, 1, '30.000', ''),
+(28, 23, 14, 1, '30.000', ''),
+(29, 24, 22, 1, '30.000', 'No veggie'),
+(30, 25, 29, 3, '10.000', '');
 
 -- --------------------------------------------------------
 
@@ -234,10 +234,10 @@ CREATE TABLE `payment` (
 --
 
 INSERT INTO `payment` (`p_id`, `c_id`, `p_type`, `p_amount`, `p_detail`) VALUES
-(20, 16, 'CRDC', '110.00', 'Visa [*4242]'),
-(21, 16, 'CRDC', '60.00', 'Visa [*4242]'),
-(22, 16, 'CRDC', '30.00', 'Visa [*4242]'),
-(23, 19, 'CRDC', '30.00', 'Visa [*4242]');
+(20, 16, 'CRDC', '110.000', 'Visa [*4242]'),
+(21, 16, 'CRDC', '60.000', 'Visa [*4242]'),
+(22, 16, 'CRDC', '30.000', 'Visa [*4242]'),
+(23, 19, 'CRDC', '30.000', 'Visa [*4242]');
 
 -- --------------------------------------------------------
 
