@@ -106,7 +106,7 @@
                         echo $open[0].":".$open[1]." - ".$close[0].":".$close[1];
                     ?>
                 </li>
-                <li class="">Telephone number: <?php echo "(+66) ".$shop_row["s_phoneno"];?></li>
+                <li class="">Telephone number: <?php echo "(+84) ".$shop_row["s_phoneno"];?></li>
             </ul>
         </div>
 
