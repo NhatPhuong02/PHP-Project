@@ -99,10 +99,10 @@ CREATE TABLE `customer` (
 --
 
 INSERT INTO `customer` (`c_id`, `c_username`, `c_pwd`, `c_firstname`, `c_lastname`, `c_email`, `c_gender`, `c_type`) VALUES
-(1, '1234566789', '1234566789', 'MinhBui', 'Quang', '123456789@g.siit.tu.ac.th', 'F', 'STD'),
-(2, '6222780668', '6222780668', 'Sirada', 'Chaisawat', '6222780668@g.siit.tu.ac.th', 'F', 'STD'),
-(3, '6222780569', '6222780569', 'Thanakit', 'Lerttomolsakul', '6222780569@g.siit.tu.ac.th', 'M', 'STD'),
-(4, 'BKD_Admin01', '12345678', 'Admin', 'Bangkradi', 'admin_dummy@email.com', 'M', 'ADM'),
+(1, 'Admin', 'Admin', 'Admin', 'Admin', 'Admin@g.siit.tu.ac.th', 'F', 'STD'),
+(2, 'Admin', '21042002', 'Phuong', 'Nguyen', '2059032@itec.hcmus.edu.vn', 'M', 'STD'),
+(3, 'Admin', '09082002', 'Minh', 'Bui', '2059027@itec.hcmus.edu.vn', 'M', 'STD'),
+(4, 'Admin', '12345678', 'Kien', 'Lin', '2059019@itec.hcmus.edu.vn', 'F', 'STD'),
 (11, 'someone', 'someonee', 'someone', 'someone', 'someone@email.com', 'N', 'GUE'),
 (16, '6222780379', '6222780379', 'Paphana', 'Yiwsiw', '6222780379@g.siit.tu.ac.th', 'M', 'STD'),
 (19, 'iamguest', 'iamguest', 'Guest01', 'Guest01', 'guest@gmail.com', 'M', 'GUE'),  
@@ -210,10 +210,10 @@ CREATE TABLE `order_header` (
 --
 
 INSERT INTO `order_header` (`orh_id`, `orh_refcode`, `c_id`, `s_id`, `p_id`, `orh_ordertime`, `orh_pickuptime`, `orh_orderstatus`, `orh_finishedtime`) VALUES
-(22, '202110280000022', 16, 3, 20, '2021-10-28 18:25:53', '2021-10-29 08:30:00', 'FNSH', '2021-11-09 01:55:19'),
-(23, '202110290000023', 16, 2, 21, '2021-10-28 19:13:22', '2021-10-29 12:00:00', 'FNSH', '2021-11-14 16:44:32'),
-(24, '202110290000024', 16, 3, 22, '2021-10-29 05:22:06', '2021-10-29 13:00:00', 'FNSH', '2021-11-15 12:42:47'),
-(25, '202110290000025', 19, 3, 23, '2021-10-29 07:57:07', '2021-10-29 15:00:00', 'FNSH', '2021-11-15 12:17:21');
+(22, '202110280000022', 1, 3, 20, '2021-10-28 18:25:53', '2021-10-29 08:30:00', 'FNSH', '2021-11-09 01:55:19'),
+(23, '202110290000023', 1, 2, 21, '2021-10-28 19:13:22', '2021-10-29 12:00:00', 'FNSH', '2021-11-14 16:44:32'),
+(24, '202110290000024', 1, 3, 22, '2021-10-29 05:22:06', '2021-10-29 13:00:00', 'FNSH', '2021-11-15 12:42:47'),
+(25, '202110290000025', 1, 3, 23, '2021-10-29 07:57:07', '2021-10-29 15:00:00', 'FNSH', '2021-11-15 12:17:21');
 
 -- --------------------------------------------------------
 
