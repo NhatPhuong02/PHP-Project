@@ -84,7 +84,7 @@ CREATE TABLE `cart` (
 --
 
 CREATE TABLE `customer` (
-  `c_id` int(11) NOT NULL,
+  `c_id` int(11) NOT NULL, 
   `c_username` varchar(45) COLLATE utf8mb4_vietnamese_ci NOT NULL,
   `c_pwd` varchar(45) COLLATE utf8mb4_vietnamese_ci NOT NULL,
   `c_firstname` varchar(45) COLLATE utf8mb4_vietnamese_ci NOT NULL,
