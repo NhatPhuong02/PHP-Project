@@ -14,7 +14,7 @@
     <header class="navbar navbar-light fixed-top bg-light shadow-sm mb-auto">
         <div class="container-fluid mx-4">
             <a href="index.php">
-                <img src="img/LOGO_BLACK.png" width="125" class="me-2" alt="ITEC Logo">
+                <img src="img/LOGO___BLACK.png" width="125" class="me-2" alt="ITEC Logo">
             </a>
         </div>
     </header>
