@@ -69,7 +69,7 @@
                 <label for="f_name">Menu Name</label>
             </div>
             <div class="form-floating mb-2">
-                <input type="number" step=".25" min="0.00" max="999.75" class="form-control" id="f_price" placeholder="Price (VND)" name="f_price" required>
+                <input type="number" step=".25" min="0.000" max="999.75" class="form-control" id="f_price" placeholder="Price (VND)" name="f_price" required>
                 <label for="f_price">Price (VND)</label>
             </div>
             <div class="mb-2">

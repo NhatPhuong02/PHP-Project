@@ -81,9 +81,9 @@
                                         $query = "SELECT SUM(ord.ord_buyprice*ord.ord_amount) AS revenue FROM order_header orh INNER JOIN order_detail ord ON orh.orh_id = ord.orh_id
                                         WHERE orh.s_id = {$s_id} AND DATE(orh.orh_pickuptime) = CURDATE() AND orh.orh_orderstatus = 'FNSH';";
                                         $result = $mysqli -> query($query) -> fetch_array();
-                                        if(!is_null($result["revenue"])){echo $result["revenue"];}else{echo "0.00";}
+                                        if(!is_null($result["revenue"])){echo $result["revenue"];}else{echo "0.000";}
                                     ?>
-                                THB
+                                VNĐ
                             </span>
                         </p>
                     </div>
