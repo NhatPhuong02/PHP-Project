@@ -376,7 +376,7 @@
                                 data-submit-label="Submit"
                                 data-locale="en"
                                 data-location="no"
-                                data-amount="<?php echo $order_cost*100;?>"
+                                data-amount="<?php echo $order_cost*100.0;?>"
                                 data-currency="vnd">
                             </script>
                             <?php } ?>
