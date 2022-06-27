@@ -100,9 +100,9 @@ CREATE TABLE `customer` (
 
 INSERT INTO `customer` (`c_id`, `c_username`, `c_pwd`, `c_firstname`, `c_lastname`, `c_email`, `c_gender`, `c_type`) VALUES
 (1, 'Admin', 'Admin', 'Admin', 'Admin', 'Admin@g.siit.tu.ac.th', 'F', 'STD'),
-(2, 'Admin', '21042002', 'Phuong', 'Nguyen', '2059032@itec.hcmus.edu.vn', 'M', 'STD'),
-(3, 'Admin', '09082002', 'Minh', 'Bui', '2059027@itec.hcmus.edu.vn', 'M', 'STD'),
-(4, 'Admin', '12345678', 'Kien', 'Lin', '2059019@itec.hcmus.edu.vn', 'F', 'STD'),
+(2, 'Admin1', '21042002', 'Phuong', 'Nguyen', '2059032@itec.hcmus.edu.vn', 'M', 'STD'),
+(3, 'Admin2', '09082002', 'Minh', 'Bui', '2059027@itec.hcmus.edu.vn', 'M', 'STD'),
+(4, 'Admin3', '12345678', 'Kien', 'Lin', '2059019@itec.hcmus.edu.vn', 'F', 'STD'),
 (11, 'someone', 'someonee', 'someone', 'someone', 'someone@email.com', 'N', 'GUE'),
 (16, '6222780379', '6222780379', 'Paphana', 'Yiwsiw', '6222780379@g.siit.tu.ac.th', 'M', 'STD'),
 (19, 'iamguest', 'iamguest', 'Guest01', 'Guest01', 'guest@gmail.com', 'M', 'GUE'),  
