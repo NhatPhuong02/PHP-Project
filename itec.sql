@@ -265,8 +265,8 @@ CREATE TABLE `shop` (
 --
 
 INSERT INTO `shop` (`s_id`, `s_username`, `s_pwd`, `s_name`, `s_location`, `s_openhour`, `s_closehour`, `s_status`, `s_preorderStatus`, `s_email`, `s_phoneno`, `s_pic`) VALUES
-(1, 'shop001', '12345678', 'Northern Restaurant', 'Unit #2', '07:30:00', '14:30:00', 1, 1, 'shop001@email.com', '09082002xxx', 'shop1.jpeg'),
-(2, 'shop002', '12345678', 'Central Restaurant', 'Unit #1', '08:00:00', '17:30:00', 1, 1, 'shop002@email.com', '0906919xxx', 'shop2.jpeg'),
+(1, 'shop001', '12345678', 'Northern Restaurant', 'Unit #2', '07:30:00', '18:30:00', 1, 1, 'shop001@email.com', '09082002xxx', 'shop1.jpeg'),
+(2, 'shop002', '12345678', 'Central Restaurant', 'Unit #1', '08:00:00', '21:30:00', 1, 1, 'shop002@email.com', '0906919xxx', 'shop2.jpeg'),
 (3, 'shop003', '12345678', 'South Restaurant', 'Unit #3', '08:30:00', '16:00:00', 1, 1, 'shop003@email.com', '0812828xxx', 'shop3.jpeg');
 
 --
