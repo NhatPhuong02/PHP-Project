@@ -110,6 +110,7 @@ INSERT INTO `customer` (`c_id`, `c_username`, `c_pwd`, `c_firstname`, `c_lastnam
 
 -- --------------------------------------------------------
 
+
 --
 -- Table structure for table `food`
 --
