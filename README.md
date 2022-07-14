@@ -18,7 +18,7 @@ itec canteen is student canteen it is used to order breakfast and lunch
 - Omise API Version 2020-05-29(not yet)
 
 ## Footnote
-- Food images included in the img folder are downloaded from freepik.com and VietNamFood page
+- Food images included in the img folder are downloaded from freepik.com and VietNamFood.com page
 - To install the Itec Canteen app, download and install XAMPP, download this repository and put into directory (C:/xampp/htdocs/), import database and name it eaterio in phpMyAdmin (http://localhost/phpmyadmin) using file itec.sql, start Apache and MySQL services, then run and access by using web browser (http://localhost/PHP-Project/) and enjoy.
 - You can register for the customer account and log in. To log in with shop account, press the log in with shop account under login page. Add shop account using the admin mode. Access admin mode by clicking at the first name in the footer at the customer log in page. You can look up
 
