@@ -24,5 +24,5 @@ itec canteen is student canteen it is used to order breakfast and lunch
 
 ## Members
 2059032 - Nguyễn Trần Nhật Phương  
-2059027 - Bùi Quang Minh
+2059027 - Bùi Quang Minh 
 2059019 - Lin Lập Kiến
