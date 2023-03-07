@@ -74,12 +74,12 @@
                 <div class="form-amount">
                     <form class="mt-3" method="POST" action="add_item.php">
                         <div class="input-group mb-3">
-                            <button id="sub_btn" class="btn btn-outline-secondary" type="button" title="subtract amount" onclick="sub_amt('amount')">
+                            <button id="sub_btn" class="btn btn-outline-secondary" type="button" title="subtract amount" onclick="sub_amt('amounts')">
                                 <i class="bi bi-dash-lg"></i>
                             </button>
-                            <input type="number" class="form-control text-center border-secondary" id="amount"
+                            <input type="number" class="form-control text-center border-secondary" id="amounts"
                                 name="amount" value="1" min="1" max="99">
-                            <button id="add_btn" class="btn btn-outline-secondary" type="button" title="add amount" onclick="add_amt('amount')">
+                            <button id="add_btn" class="btn btn-outline-secondary" type="button" title="add amount" onclick="add_amt('amounts')">
                                 <i class="bi bi-plus-lg"></i>
                             </button>
                         </div>
@@ -93,17 +93,7 @@
                             </div>
                         </div>
                         <button class="btn btn-success w-100" type="submit" title="add to cart" name="addtocart"
-                        <?php
-                            $cartsearch_query1 = "SELECT COUNT(*) AS cnt FROM cart WHERE c_id = {$_SESSION['cid']}";
-                            $cartsearch_row1 = $mysqli -> query($cartsearch_query1) -> fetch_array();
-                            if($cartsearch_row1["cnt"]>0){
-                                $cartsearch_query2 = $cartsearch_query1." AND s_id = {$s_id}";
-                                $cartsearch_row2 = $mysqli -> query($cartsearch_query2) -> fetch_array();
-                                if($cartsearch_row2["cnt"]==0){?>
-                                    onclick="javascript: return changeshopcf();"<?php 
-                                } 
-                            }
-                        ?>
+                        
                         >
                             <svg xmlns='http://www.w3.org/2000/svg\\' width='16' height='16' fill='currentColor'
                                 class='bi bi-cart-plus' viewBox='0 0 16 16'>
