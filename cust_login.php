@@ -37,6 +37,9 @@
             <a class="nav nav-item text-decoration-none text-muted mb-2 small" href="shop/shop_login.php">
                 <i class="bi bi-shop me-2"></i>Log in to your shop account
             </a>
+            <a class="nav nav-item text-decoration-none text-muted mb-2 small" href="admin/admin_login.php">
+                <i class="bi bi-shop me-2"></i>Log in to your admin account
+            </a>
             <a class="nav nav-item text-decoration-none text-muted mb-2 small" href="cust_forgot_pwd.php">
                 <i class="bi bi-key me-2"></i>Forgot your password?
             </a>
