@@ -1,0 +1,12 @@
+.phpunit.result.cache
+.php-cs-fixer.cache
+.php_cs.cache
+.vscode
+.DS_Store
+.env
+test.php
+composer.lock
+composer.phar
+vendor
+reports
+coverage.xml
